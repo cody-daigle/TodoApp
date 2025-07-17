@@ -2,7 +2,7 @@ import Config
 
 # Configure your database
 config :todo, Todo.Repo,
-  username: "cody-daigle",
+  username: "change_to_env_var",
   password: "postgres",
   hostname: "localhost",
   database: "todo_dev",
